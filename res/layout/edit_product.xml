@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   <ImageView
+       android:id="@+id/phone"
+       android:layout_width="204dp"
+       android:layout_height="204dp"
+       android:layout_x="56dp"
+       android:layout_y="20dp" />
+
+   <TextView
+       android:id="@+id/NameProd"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="20dp"
+       android:layout_y="254dp"
+       android:text="Name of Product:" />
+
+   <EditText
+       android:id="@+id/NameSet"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="140dp"
+       android:layout_y="254dp"
+       android:text="TextView" />
+
+   <TextView
+       android:id="@+id/DescProd"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="22dp"
+       android:layout_y="282dp"
+       android:text="Description: " />
+
+   <EditText
+       android:id="@+id/DescSet"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="116dp"
+       android:layout_y="287dp"
+       android:text="TextView" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="327dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/color1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/color2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/color3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/color4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:id="@+id/color5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/empty" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="306dp"
+        android:text="Colors Availables:" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="29dp"
+         android:layout_y="422dp"
+         android:text="Price:" />
+
+     <EditText
+         android:id="@+id/price"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="134dp"
+         android:layout_y="422dp"
+         android:text="TextView" />
+
+     <HorizontalScrollView
+         android:id="@+id/horizontalScrollView2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_x="5dp"
+         android:layout_y="384dp" >
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="42dp"
+             android:orientation="horizontal" >
+
+             <EditText
+                 android:id="@+id/qnt1"
+                 android:layout_width="40dp"
+                 android:layout_height="wrap_content"
+                 android:scrollHorizontally="true" />
+
+             <EditText
+                 android:id="@+id/qnt2"
+                 android:layout_width="40dp"
+                 android:layout_height="wrap_content"
+                 android:scrollHorizontally="true" />
+
+             <EditText
+                 android:id="@+id/qnt3"
+                 android:layout_width="40dp"
+                 android:layout_height="wrap_content"
+                 android:scrollHorizontally="true" />
+
+             <EditText
+                 android:id="@+id/qnt4"
+                 android:layout_width="40dp"
+                 android:layout_height="wrap_content"
+                 android:scrollHorizontally="true" />
+
+             <EditText
+                 android:id="@+id/qnt5"
+                 android:layout_width="40dp"
+                 android:layout_height="wrap_content"
+                 android:scrollHorizontally="true" />
+         </LinearLayout>
+     </HorizontalScrollView>
+
+     <Button
+         android:id="@+id/update"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="228dp"
+         android:layout_y="10dp"
+         android:text="Update" />
+    
+</AbsoluteLayout>

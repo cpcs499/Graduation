@@ -1,0 +1,119 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-4dp"
+        android:layout_y="196dp" >
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridProd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="-2dp"
+        android:layout_y="166dp"
+        android:columnWidth="90dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp" >
+    </GridView>
+
+    <com.parse.ParseImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="24dp"
+        android:layout_y="17dp"
+        android:src="@drawable/inspiration_6" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="18dp"
+        android:layout_y="12dp"
+        android:src="@drawable/post_st2" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="88dp"
+        android:layout_y="18dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="89dp"
+        android:layout_y="40dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#cccccc" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_x="288dp"
+        android:layout_y="58dp"
+        android:src="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="255dp"
+        android:layout_y="38dp"
+        android:text="Edit Shop"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/AddProduct"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:layout_x="139dp"
+        android:layout_y="100dp"
+        android:src="@drawable/add_icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="229dp"
+        android:layout_y="105dp"
+        android:text="Followers" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="143dp"
+        android:text="Shop Products" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="105dp"
+        android:text="p" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="248dp"
+        android:layout_y="9dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</AbsoluteLayout>
